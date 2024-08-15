@@ -1,0 +1,22 @@
+{
+  "name": "login-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "npx ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "services:start": "docker-compose up database"
+  },
+  "author": "Alícia Melo",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^22.3.0",
+    "typescript": "^5.5.4"
+  }
+}
